@@ -163,6 +163,7 @@ def draw_graph(
         pytorch model in the form of graphviz Digraph object
     '''
 
+    print("Testing")
     if filename is None:
         filename = f'{graph_name}.gv'
 
